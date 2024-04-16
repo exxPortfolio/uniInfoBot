@@ -42,12 +42,12 @@ Check master branch \n
       Collumn E: Image to send when clicked 'ImageName (like file)' // SENDS IMAGE _AFTER_ Message text or except text<br>
 
   **AuthList**<br>
-    1. Create sheet book
-    2. Create a list names like usersList
-    3. Create a list names like adminsList
+    1. Create sheet book<br>
+    2. Create a list names like usersList<br>
+    3. Create a list names like adminsList<br>
     UsefullInfo: <br>
-      Collumn A: Name of user "Name Surname"
-      Collumn B: User telegram name like @piurg without '@' char
+      Collumn A: Name of user "Name Surname"<br>
+      Collumn B: User telegram name like @piurg without '@' char<br>
 
 ### TelegramBotCommands
   User must be admin to use any of it
