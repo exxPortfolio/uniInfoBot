@@ -1,6 +1,6 @@
 {
   "bot_api_key": "telegram_api_key",
-  "dataFolders" :[
+  "dataFolders": [
     "message_data",
     "media_data",
     "bot_data",
@@ -15,7 +15,7 @@
   "mainMenuList": "default (mainMenuList) list name",
   "dataSheetID": "id if google dataList",
   "authSheetID": "id if google usersList",
-  "listNames" : {
+  "listNames": {
     "users_list": "nameOfUsersList",
     "admins_list": "nameOfAdminsList"
   },
@@ -26,7 +26,7 @@
     "fileNotDefined": "Файл не указан",
     "fileListCreateError": "Произошла ошибка при создании списка файлов"
   },
-  "defMessageParams" : {
+  "defMessageParams": {
     "disableSave": true,
     "disableForwards": true,
     "sendNotify": false,
