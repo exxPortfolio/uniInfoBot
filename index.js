@@ -10,7 +10,7 @@ const client = new bot(cfg.bot_api_key, {
 client.on('webhook_error', (error) => {  });
 client.on('polling_error', (error) => {  });
 
-//InitializeComponents.prototype.init().catch((err) => {})
+InitializeComponents.prototype.init().catch((err) => {})
 
 client.on('text', async msg => {
     await telegramMessageHandler.prototype.gotMessageByUser(msg, client)
