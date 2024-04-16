@@ -1,0 +1,49 @@
+{
+  "bot_api_key": "telegram_api_key",
+  "dataFolders" :[
+    "message_data",
+    "media_data",
+    "bot_data",
+    "keyboard_data",
+    "users_data",
+    "custom",
+    "logs",
+    "search_system"
+  ],
+  "keyboardCut": "8",
+  "defApiSheetName": "default (mainMenuList) list name",
+  "mainMenuList": "default (mainMenuList) list name",
+  "dataSheetID": "id if google dataList",
+  "authSheetID": "id if google usersList",
+  "listNames" : {
+    "users_list": "nameOfUsersList",
+    "admins_list": "nameOfAdminsList"
+  },
+  "errorList": {
+    "fileNotFound": "Файл не найден",
+    "undefined": "error",
+    "nothingFound": "Ничего не найдено",
+    "fileNotDefined": "Файл не указан",
+    "fileListCreateError": "Произошла ошибка при создании списка файлов"
+  },
+  "defMessageParams" : {
+    "disableSave": true,
+    "disableForwards": true,
+    "sendNotify": false,
+    "defParseMode": "HTML"
+  },
+  "messageList": {
+    "possibleValues": "Похожие результаты",
+    "mainMenu": "Главная",
+    "dataUpdated": "Данные обновлены",
+    "goBack": "Назад",
+    "sendVideoId": "ID видео",
+    "fileSaved": "Файл успешно сохранен, имя файла:"
+  },
+  "searchConfig": {
+    "possibleValuesLimit": 12
+  },
+  "renderConfig": {
+    "renderSheetName": "renderList -- name of list with full list array"
+  }
+}
