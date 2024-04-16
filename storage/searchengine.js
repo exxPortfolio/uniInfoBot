@@ -155,7 +155,6 @@ class SearchEngine {
           : res
       );
     })
-    // Результат: поиск заменам слов .ПРИМЕР: Вход: 'Ипот кредит'; Выход: [ [ 'Ипотека' ], [ 'кредитной', 'Кредит' ] ];
     if (resultArray.filter((v) => v).length === 0) {
       callback(false)
     } else {
@@ -260,7 +259,7 @@ class SearchEngine {
                 })
               })
             }
-            if (Object.values(messageArr)[0][2] !== null) { // Видео должны заработать в ориге бота
+            if (Object.values(messageArr)[0][2] !== null) {
               let files = Object.values(messageArr)[0][2].split(',');
               files.forEach((videoFile) => {
                 client.sendVideo(msg.chat.id, videoFile, defaultMessageParams).catch((err) => {
