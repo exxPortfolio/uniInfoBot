@@ -1,6 +1,8 @@
 # uniInfoBot
 
-telegram bot for quick access to information using googleSheets
+telegram bot for quick access to information via googleSheets
+**useful for organisations**
+
 
 ## Usage: <br>
 
