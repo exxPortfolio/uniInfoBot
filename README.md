@@ -2,8 +2,6 @@
 
 telegram bot for quick access to information using googleSheets
 
-**Check master branch**
-
 ## Usage: <br>
 
 ### Config:<br>
